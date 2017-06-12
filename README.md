@@ -1,5 +1,7 @@
 # Build a spigot server
 
+[![](https://images.microbadger.com/badges/image/justtolaunch/spigotbuilder.svg)](https://microbadger.com/images/justtolaunch/spigotbuilder "Get your own image badge on microbadger.com")
+
 Use build tools from :
 
     https://hub.spigotmc.org/jenkins/job/BuildTools/
