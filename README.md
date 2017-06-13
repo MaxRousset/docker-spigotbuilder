@@ -1,4 +1,5 @@
-# Build a spigot server
+Build a spigot server
+---------------------
 
 [![](https://images.microbadger.com/badges/image/justtolaunch/spigotbuilder.svg)](https://microbadger.com/images/justtolaunch/spigotbuilder "Get your own image badge on microbadger.com")
 
@@ -6,7 +7,8 @@ Use build tools from :
 
     https://hub.spigotmc.org/jenkins/job/BuildTools/
 
-##Usage :
+Usage :
+-------
 
 * You must give an empty directory
 
@@ -14,7 +16,8 @@ cmd :
 
     docker run --rm -it -v $/YOUR/BUILD/DIRECTORY:/data justtolaunch/spigotbuilder
 
-##Optional :
+Optional :
+----------
 
 You can set spigot version to build with REV option (default is latest)
 
