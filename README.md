@@ -14,11 +14,11 @@ Usage :
 
 cmd :
 
-    docker run --rm -it -v $/YOUR/BUILD/DIRECTORY:/data justtolaunch/spigotbuilder
+    docker run --rm -it -v /YOUR/BUILD/DIRECTORY:/data justtolaunch/spigotbuilder
 
 Optional :
 ----------
 
 You can set spigot version to build with REV option (default is latest)
 
-    docker run --rm -it -v $/YOUR/BUILD/DIRECTORY:/data -e REV=1.11 justtolaunch/spigotbuilder
+    docker run --rm -it -v /YOUR/BUILD/DIRECTORY:/data -e REV=1.11 justtolaunch/spigotbuilder
